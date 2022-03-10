@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".ChangePassActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="goToSettings"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <ImageView
+        android:id="@+id/rectangleRounded"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="75dp"
+        android:padding="30dp"
+        android:src="@drawable/rounded_rectangle" />
+
+    <TextView
+        android:id="@+id/textChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/arbutus"
+        android:text="CHANGE PASSWORD"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editUserChange"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/customedittext"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="30dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:ems="20"
+        android:fontFamily="@font/aldrich"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editPasswordChange"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/editUserChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/customedittext"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:drawablePadding="30dp"
+        android:ems="20"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/aldrich"
+        android:hint="New password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editRepeatPasswordChange"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/editPasswordChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/customedittext"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:drawablePadding="30dp"
+        android:ems="20"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/aldrich"
+        android:hint="Repeat password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editRepeatPasswordChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/custom_login"
+        android:onClick="changePassword"
+        android:text="CHANGE"
+        android:textSize="16dp" />
+
+</RelativeLayout>

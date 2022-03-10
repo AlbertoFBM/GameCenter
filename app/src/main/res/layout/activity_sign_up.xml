@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/mando_alberto" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="goToLogin"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <ImageView
+        android:id="@+id/rectangleRounded"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/rounded_rectangle"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/textsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:fontFamily="@font/arbutus"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/textsign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/customedittext"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="30dp"
+        android:ems="20"
+        android:fontFamily="@font/aldrich"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/editUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customedittext"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="30dp"
+        android:ems="20"
+        android:fontFamily="@font/aldrich"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/editEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customedittext"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:drawablePadding="30dp"
+        android:ems="20"
+        android:fontFamily="@font/aldrich"
+        android:hint="Password"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editPassword2"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/editPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="20"
+        android:fontFamily="@font/aldrich"
+        android:background="@drawable/customedittext"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:drawablePadding="30dp"
+        android:hint="Repeat Password"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/signup_btn2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editPassword2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/custom_login"
+        android:onClick="checkSignUp"
+        android:text="SIGN UP"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have an account already?"
+        android:textColor="@color/white"
+        android:layout_below="@id/signup_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/login_btn2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/quest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_signup"
+        android:onClick="goToLogin"
+        android:text="LOGIN"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

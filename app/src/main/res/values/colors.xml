@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="menu_color"> #FFFF0F</color>
+    <color name="menu_glow"> #F00</color>
+    <color name="orange">#ff8000</color>
+
+<color name="backgroundMenuPEG">#c0ffee</color>
+    <color name="backgroundButtonPEGClicked">#FF0000</color>
+    <!--<color name="backgroundButtonPEG">#B8FFFD</color>-->
+    <color name="backgroundButtonPEG">#7b78fa</color>
+    <color name="victory_title">#e6c015</color>
+    <color name="game_over_title">#b30606</color>
+
+<color name="textViewColor">#cbbfb1</color>
+    <color name="gridLayoutColor">#bcaca0</color>
+    <color name="backgroundGame">#fbf7ee</color>
+    <color name="buttons">#9a8373</color>
+    <color name="background">#ffff9d</color>
+    <color name="color_2">#EEE4DA</color>
+    <color name="color_4">#EDE0C8</color>
+    <color name="color_8">#F2B179</color>
+    <color name="color_16">#F59563</color>
+    <color name="color_32">#F67C5F</color>
+    <color name="color_64">#F65E3B</color>
+    <color name="color_128">#EDCF72</color>
+    <color name="color_256">#EDCC61</color>
+    <color name="color_512">#EDC850</color>
+    <color name="color_1024">#EDC53F</color>
+    <color name="color_2048">#EDC22E</color>
+    <color name="color_4096">#3C3A32</color>
+    <color name="color_8192">#3C3A32</color>
+    <color name="red">#e40303</color>
+
+</resources>

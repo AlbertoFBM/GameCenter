@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textdimen">20sp</dimen>
+    <dimen name="textSize">30sp</dimen>
+    <dimen name="marginTextView">8.75sp</dimen>
+
+</resources>

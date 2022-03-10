@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GameCenter</string>
+    <string name="game_center">GAME CENTER</string>
+    <string name="description_logo">logo</string>
+
+    <string name="version">Copyright © 2022\nAll Rights Reserved</string>
+    <string name="createdBy">Created by Alberto Serrano</string>
+
+    <string name="main">MAIN MENU</string>
+    <string name="play2048">PLAY 2048</string>
+    <string name="playPEG">PLAY PEG SOLITAIRE</string>
+    <string name="scores">SCORES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="help">HELP</string>
+
+    <string name="titlePEG">PEG Solitaire</string>
+    <string name="countUpTimer">00:00:00</string>
+
+    <string name="valorInicial">0</string>
+    <string name="gameTitle">2048</string>
+    <string name="empezar">START</string>
+    <string name="menuTitle">2048</string>
+    <string name="button_play">PLAY</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="message_alert_delete_user">Clicking this button will delete the user and their respective scores.</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Winner2048Activity">
+
+    <TextView
+        android:id="@+id/winner_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VICTORY !"
+        android:textColor="@color/victory_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/arbutus"
+        android:textSize="38sp" />
+
+    <ImageView
+        android:id="@+id/star_winner"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:src="@drawable/star_winner"
+        android:layout_below="@id/winner_title"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/returnToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/star_winner"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:text="Return to menu"
+        android:background="@drawable/button"
+        android:onClick="returnMenu"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/returnToGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/star_winner"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        android:onClick="return2048"
+        android:text="Return to 2048" />
+
+
+
+</RelativeLayout>
